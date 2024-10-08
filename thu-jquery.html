@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="basic">
+        <li class="java">nguyễn văn A</li>
+        <li class="app">nguyễn văn B</li>
+        <li class="java">nguyễn văn c</li>
+        <li class="app">nguyễn văn D</li>
+    </ul>
+    <P>nguyễn văn E</P>
+    <p id="tag">nguyễn văn F</p>
+    <p class="java">nguyễn văn G</p>
+    <p> nguyễn văn H</p>
+    <p class="app">nguyễn văn I</p>
+<script src="./thu_vien/jquery-3.7.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+    // jquery here....
+    // B1 các thẻ p
+    //$("p").css('border', '1px solid red')
+
+    // B4 các thẻ có class là java trong thẻ có id là basic 
+    $("#basic .java").CSS('border', '1px solid red')
+    })
+   
+</script>
+</body>
+</html>
